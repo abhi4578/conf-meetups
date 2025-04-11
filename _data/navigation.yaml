@@ -1,0 +1,11 @@
+main:
+  - title: "Home"
+    url: https://abhi4578.github.io/
+  - title: "Events"
+    url: /events/
+  - title: "Attended"
+    url: /attended/
+  - title: "My Talks"
+    url: /talks/
+  - title: "My Workshops"
+    url: /workshops/
