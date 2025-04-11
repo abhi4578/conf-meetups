@@ -108,9 +108,6 @@ IUDX is completely open source, based on an underlying framework of open standar
 
 #### Bio:
 
-<img src="/assets/images/workshop-bio.png" style="max-height: 200px; max-width: 200px;">
-
-Abhilash V, Lead Engineer at  FSID, CDPG IISc Bangalore
 
 Abhilash works as Lead Engineer at Foundation of society, Innovation and Development, Centre of Data for Public Good. He works primarily on container, cloud based technologies and Secure Enclave, SMPC based privacy enhancing technologies at CDPG research division.
 

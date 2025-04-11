@@ -2,7 +2,8 @@ minimal_mistakes_skin: "sunrise" # "air", "aqua", "contrast", "dark", "dirt", "n
 title: "Confs, Meetups, Talks, Workshops & Events"
 name: "Abhilash Venkatesh"
 description: "Abhi's collection of meetups, conferenctes, talks, workshops and other events."
-url: "https://abhi4578.github.io/conf-meetups"
+url: "https://abhi4578.github.io/"
+baseurl: "/conf-meetups"
 repository: "abhi4578/conf-meetups"
 search: true
 
