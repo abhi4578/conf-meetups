@@ -17,7 +17,8 @@ paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: Asia/Calcutta
 
-include: ["_pages"]
+include: 
+   - _pages
 
 # Plugins (previously gems:)
 plugins:
@@ -92,7 +93,6 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
       share: true
       related: true
   # _workshops
@@ -103,7 +103,6 @@ defaults:
       layout: single
       author_profile: true
       share: true
-      comments: true
   - scope:
       path: ""
       type: talks
@@ -111,7 +110,6 @@ defaults:
       layout: single
       author_profile: true
       share: true
-      comments: true
 
 category_archive:
   type: liquid
