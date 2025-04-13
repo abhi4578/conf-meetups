@@ -5,7 +5,7 @@ description: "Abhi's collection of meetups, conferenctes, talks, workshops and o
 url: "https://abhi4578.github.io/"
 baseurl: "/conf-meetups"
 repository: "abhi4578/conf-meetups"
-search: true
+search: false
 
 # Build settings
 markdown: kramdown
@@ -16,6 +16,8 @@ permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: Asia/Calcutta
+
+include: ["_pages"]
 
 # Plugins (previously gems:)
 plugins:
@@ -33,6 +35,7 @@ author:
   avatar   : "/assets/images/bio.jpg"
   bio      : "Currently a grad student at OMSCS. I love Linux, FOSS and systems!"
   location : "Bengaluru, India"
+
 footer:
   links:
     - label: "GitHub"
@@ -53,7 +56,7 @@ footer:
     - label: "Goodreads"
       icon: "fa-solid fa-goodreads"
       url: "https://goodreads.com/urnbhai"
-include: ["_pages"]
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
