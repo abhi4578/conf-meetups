@@ -33,3 +33,5 @@ _site
 # custom ignore files
 conf-meetup-photos
 image-compressor
+# VS code
+.vscode

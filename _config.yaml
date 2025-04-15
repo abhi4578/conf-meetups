@@ -69,7 +69,12 @@ footer:
     - label: "Goodreads"
       icon: "fa-solid fa-goodreads"
       url: "https://goodreads.com/urnbhai"
-
+    - label: "Source Code"
+      icon: "fa-solid fa-code"
+      url: "https://github.com/abhi4578/conf-meetups"      
+    - label: "License"
+      icon: "fa-brands fa-creative-commons"
+      url: https://github.com/abhi4578/conf-meetups/blob/main/LICENSE  
 
 collections:
   workshops:
@@ -93,6 +98,7 @@ defaults:
       type: posts
     values:
       layout: single
+      show_date: true
       author_profile: true
       read_time: true
       share: true
