@@ -25,7 +25,7 @@ async function fetchAndDisplayQuote() {
         : [wrappedQuote, 'Unknown'];
 
     const formattedQuote = `${quoteText}<br>- ${author}`;
-    document.getElementsByClassName("author__urls-wrapper")[0].innerHTML += `<li>${formattedQuote}</li>`;
+    document.getElementsByClassName("author__content")[0].innerHTML += `<p>${formattedQuote}</p>`;
     } catch (error) {
         console.error('Error fetching quotes:', error);
     }
