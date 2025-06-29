@@ -9,9 +9,9 @@ async function fetchAndDisplayQuote() {
         const text = await response.text();
         const quotes = text.split('%').map(quote => quote.trim()).filter(quote => quote);
         const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
-    const wrappedQuote = randomQuote.length > 36 
+    const wrappedQuote = randomQuote.length > 32 
         ? randomQuote.split(' ').reduce((acc, word) => {
-            if (acc.length === 0 || acc[acc.length - 1].length + word.length + 1 > 36) {
+            if (acc.length === 0 || acc[acc.length - 1].length + word.length + 1 > 32) {
                 acc.push(word);
             } else {
                 acc[acc.length - 1] += ' ' + word;
